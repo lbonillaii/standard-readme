@@ -1,4 +1,4 @@
-# Standard Readme
+# readme-standard
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
@@ -69,8 +69,9 @@ $ npm install --global standard-readme-spec
 This is only a documentation package. You can print out [spec.md](spec.md) to your console:
 
 ```sh
-$ standard-readme-spec
-# Prints out the standard-readme spec
+> npm i -g remark
+> npm i
+> remark README.md -o README.md
 ```
 
 ### Generator
